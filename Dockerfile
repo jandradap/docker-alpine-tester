@@ -20,6 +20,9 @@ RUN apk add --update drill \
 	bind-tools \
 	wget \
 	curl \
+	nmap \
+	mariadb-client \
+	vim \
 	&& rm -rf /var/cache/apk/*
 
 ENTRYPOINT ["sleep","9999999"]

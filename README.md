@@ -7,3 +7,6 @@ Programas preinstalados:
 -   bind-tools
 -   wget
 -   curl
+-   nmap
+-   mariadb-client
+-   vim
