@@ -22,4 +22,4 @@ RUN apk add --update drill \
 	curl \
 	&& rm -rf /var/cache/apk/*
 
-ENTRYPOINT ["htop"]
+ENTRYPOINT ["sleep","9999999"]
