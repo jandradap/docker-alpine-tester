@@ -21,8 +21,8 @@ Pre-installed programs:
 <a href='https://ko-fi.com/A417UXC'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi2.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 
-![Run container](https://raw.githubusercontent.com/jandradap/docker-alpine-tester/develop/images/run.png)
+![Run container](https://raw.githubusercontent.com/jandradap/docker-alpine-tester/master/images/run.png)
 
-![Logs container](https://raw.githubusercontent.com/jandradap/docker-alpine-tester/develop/images/logs.png)
+![Logs container](https://raw.githubusercontent.com/jandradap/docker-alpine-tester/master/images/logs.png)
 
-![Tests](https://raw.githubusercontent.com/jandradap/docker-alpine-tester/develop/images/tests.png)
+![Tests](https://raw.githubusercontent.com/jandradap/docker-alpine-tester/master/images/tests.png)
