@@ -35,10 +35,10 @@ RUN apk --update --clean-protected --no-cache add \
 
 ENV USER_LOGIN="monino"
 
-RUN adduser -D $USER_LOGIN \
+RUN adduser -D $USER_LOGIN -u 1001\
   && echo "$USER_LOGIN ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 
-USER $USER_LOGIN
+USER 1001
 
 WORKDIR /home/$USER_LOGIN
 
