@@ -24,7 +24,7 @@ RUN apk --update --clean-protected --no-cache add \
   nmap \
   mariadb-client \
   vim \
-	openssl \
+  openssl \
   bash \
   jq \
   sudo \
@@ -32,13 +32,12 @@ RUN apk --update --clean-protected --no-cache add \
   busybox-extras \
   && rm -rf /var/cache/apk/*
 
-
 ENV USER_LOGIN="monino"
 
-RUN adduser -D $USER_LOGIN -u 1001\
+RUN adduser -D $USER_LOGIN \
   && echo "$USER_LOGIN ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 
-USER 1001
+USER $USER_LOGIN
 
 WORKDIR /home/$USER_LOGIN
 
